@@ -2,6 +2,7 @@ package net.qinx.lilcobble;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.qinx.lilcobble.block.ModBlocks;
 import net.qinx.lilcobble.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class LILCobblestone implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

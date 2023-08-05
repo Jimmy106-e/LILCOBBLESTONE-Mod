@@ -12,10 +12,10 @@ import net.minecraft.util.Identifier;
 import net.qinx.lilcobble.LILCobblestone;
 
 public class ModItems {
-    public static final Item LILCOBBLESTONE = registerItem("lilcobblestone", new Item(new FabricItemSettings()));
+    public static final Item LILCOBBLESTONEBIT = registerItem("lilcobblestonebit", new Item(new FabricItemSettings()));
 
-    private static void addItemsToBuildingBlocksItemGroup(FabricItemGroupEntries entries) {
-        entries.add(LILCOBBLESTONE);
+    private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
+        entries.add(LILCOBBLESTONEBIT);
     }
 
     private static Item registerItem(String name, Item item) {
@@ -25,6 +25,6 @@ public class ModItems {
     public static void registerModItems() {
         LILCobblestone.LOGGER.info("Registering Mod items for " + LILCobblestone.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBuildingBlocksItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientsItemGroup);
     }
 }
