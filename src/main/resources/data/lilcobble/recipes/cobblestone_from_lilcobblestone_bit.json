@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "LLL",
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "lilcobble:lilcobblestonebit"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone"
+  }
+}

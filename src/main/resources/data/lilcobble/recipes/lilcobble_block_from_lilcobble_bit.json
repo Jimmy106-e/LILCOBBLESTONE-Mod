@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "lilcobble:lilcobblestonebit"
+    }
+  },
+  "pattern": [
+    "   ",
+    "## ",
+    "## "
+  ],
+  "result": {
+    "item": "lilcobble:lilcobblestone_block"
+  }
+}
