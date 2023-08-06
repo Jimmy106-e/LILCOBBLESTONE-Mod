@@ -1,4 +1,6 @@
 {
   "item.lilcobble.lilcobblestonebit": "LIL Cobblestone Bit",
-  "block.lilcobble.lilcobblestone_block": "LIL Cobblestone Block"
+  "block.lilcobble.lilcobblestone_block": "LIL Cobblestone Block",
+
+  "itemgroup.lilcobblestone": "LIL Cobblestone Group"
 }
